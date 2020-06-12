@@ -69,7 +69,7 @@
                 <p class="lead">
                     by <a href="user_posts.php?user=<?php echo $post_user; ?>&p_id=<?php echo $post_id; ?>"><?php echo $post_user ?></a>
                 </p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on <?php echo $post_date ?></p>
+                <p class="post-timestamp"><span class="glyphicon glyphicon-time"></span> Posted on <?php echo $post_date ?></p>
                 <hr>
                 <a href="post.php?p_id=<?php echo $post_id; ?>">
                     <img class="img-responsive" src="images/<?php echo $post_image ;?>" alt="">

@@ -14,3 +14,8 @@ hr.new4 {
 hr.new3 {
   border-top: 2px dotted lightblue;
 }
+
+.post-timestamp{
+    
+    color: #777;
+}
